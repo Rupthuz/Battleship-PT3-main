@@ -3,8 +3,7 @@
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
 
-
-def getting_shot():
+def getting_shot(guesses):
     
     ok = "n"
     while ok == "n":
@@ -13,6 +12,8 @@ def getting_shot():
             shot = int(shot)
             if shot < 0 or shot > 99:
                 print("Please enter a valid number !")
+            elif shot in guesses: 
+                print("Number used before !") 
             else:
                 ok = "y"
                 break
@@ -38,12 +39,28 @@ def game_board(hit,miss,comp):
             row = row + ch
             place = place + 1
         print(x, row)
-    
-    
-miss = [20,45,50]
-hit = [10,25,33]
-comp = [43,6]
 
+def check_hit(shot,boat1,hit,miss,comp):
+     
+    if shot in boat1:
+        boat1.remove(shot)
+        if len(boat1) > 0:
+             hit.append(shot)
+        else:
+            comp.append(shot)
+    else:
+         miss.append(shot)
+    
+    return boat1,hit,miss,comp
+     
+     
+boat1 = [45,46,47] 
+miss = []
+hit = []
+comp = []
 
-shot = getting_shot()
-game_board(miss,hit,comp)
+for i in range(10):
+    guesses = hit + miss + comp
+    shot = getting_shot(guesses)
+    boat1,hit,miss,comp = check_hit(shot,boat1,hit,miss,comp)
+    game_board(miss,hit,comp)
