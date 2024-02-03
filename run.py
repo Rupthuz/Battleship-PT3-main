@@ -47,10 +47,8 @@ def check_hit(shot,boat1,boat2,hit,miss,comp):
         if len(boat1) > 0:
              hit.append(shot)
         else:
-            comp.append(shot)
-    else:
-         miss.append(shot)
-    if shot in boat2:
+            comp.append(shot)        
+    elif shot in boat2:
         boat2.remove(shot)
         if len(boat2) > 0:
              hit.append(shot)
@@ -63,9 +61,10 @@ def check_hit(shot,boat1,boat2,hit,miss,comp):
      
      
 boat1 = [45,46,47]
-boat2 = [2,22,25]
-miss = []
+boat2 = [2,12,22]
+
 hit = []
+miss = []
 comp = []
 
 for i in range(10):
