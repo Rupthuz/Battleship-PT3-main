@@ -58,7 +58,7 @@ def create_boats():
         
     return ships,take
 
-def game_board(take):
+def game_board_comp(take):
     print("           Battleship Game          ")
     print("   0   1   2   3   4   5   6   7   8   9")
 
@@ -68,11 +68,70 @@ def game_board(take):
         for y in range(10):
             ch = " _  "
             if place in take:
-                ch = " x  "
+                ch = " o  "
             row = row + ch
             place = place + 1
         
         print(x, row)
+        
+def getting_shot_comp(guesses):
+    
+    ok = "n"
+    while ok == "n":
+        try:
+            shot = randrange(99)
+            if shot not in guesses: 
+                ok = "y"
+                guesses.append(shot)
+                break
+        except:
+            print("Please entry again !")
+            
+    return shot,guesses
 
-boats,take = create_boats()
-game_board(take)
+def game_board(hit,miss,comp):
+    print("           Battleship Game          ")
+    print("   0   1   2   3   4   5   6   7   8   9")
+
+    place = 0
+    for x in range(10):
+        row = ""
+        for y in range(10):
+            ch = " _  "
+            if place in miss:
+                ch = " x  "
+            elif place in hit:
+                ch = " o  "
+            elif place in comp:
+                ch = " @  "
+            row = row + ch
+            place = place + 1
+        print(x, row)
+        
+        
+def check_hit(shot,ships,hit,miss,comp):
+     
+     
+    for i in range(len(ships)):
+        if shot in ships[i]:
+            ships[i].remove(shot)
+            if len(ships[i]) > 0:
+                hit.append(shot)
+            else:
+                comp.append(shot)        
+    
+         
+    return ships,hit,miss,comp  
+
+boat1 = [45,46,47]
+boat2 = [2,12,22]     
+
+hit = []
+miss = []
+comp = []
+guesses = []
+ships,take = create_boats()
+game_board_comp(take)
+shot,guesses = getting_shot_comp(guesses)
+ships,hit,miss,comp = check_hit(shot,ships,hit,miss,comp)
+game_board(hit,miss,comp)
