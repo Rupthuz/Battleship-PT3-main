@@ -134,6 +134,10 @@ def calc_tactic(shot,tactic,guesses,hit):
             
     return cand
             
+            
+def check_if_empty(list_of_lists):
+    return all([not elem for elem in list_of_lists])
+
 hit = []
 miss = []
 comp = []
@@ -153,6 +157,11 @@ for i in range(80):
         tactic = []
     elif len(tactic) > 0:
         tactic.pop(0)
+        
+        if check_if_empty(ships):
+            print("Game Over",i)
+            break
+        
         
 game_board_comp(take)   
 game_board(hit, miss, comp)
