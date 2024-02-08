@@ -99,11 +99,20 @@ def check_hit(shot, ships, hit, miss, comp):
     return ships,hit,miss,comp,missed
 
 
-def calc_tactic(shot,tactic,guesses):
+def calc_tactic(shot,tactic,guesses,hit):
     
     temp = []
     if len(tactic) < 1:
         temp = [shot-1,shot+1,shot-10,shot+10]
+    else:
+        if shot-1 in hit:
+            temp = [shot-2,shot+1]
+        elif shot+1 in hit:
+            temp = [shot+2,shot-1]
+        elif shot-10 in hit:
+            temp = [shot-20,shot+10]
+        elif shot+10 in hit:
+            temp = [shot+20,shot-10]
     
     cand = []
     for i in range(len(temp)):
@@ -118,15 +127,21 @@ miss = []
 comp = []
 guesses = []
 ships, take = create_boats()
-game_board_comp(take)
+
 tactic = []
 
 
 for i in range(50):
     shot, guesses = getting_shot_comp(guesses,tactic)
     ships, hit, miss, comp, missed = check_hit(shot, ships, hit, miss, comp)
-    game_board(hit, miss, comp)
+    
     if missed == 1:
-        tactic = calc_tactic(shot,tactic,guesses)    
+        tactic = calc_tactic(shot,tactic,guesses,hit)    
     elif missed == 2:
         tactic = []
+    elif len(tactic) > 0:
+        tactic.pop(0)
+        
+game_board_comp(take)   
+game_board(hit, miss, comp)
+
