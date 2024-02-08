@@ -75,7 +75,7 @@ def game_board(hit, miss, comp):
             elif place in hit:
                 ch = " o  "
             elif place in comp:
-                ch = " @  "
+                ch = " 0  "
             row += ch
             place += 1
         print(x, row)
@@ -106,13 +106,25 @@ def calc_tactic(shot,tactic,guesses,hit):
         temp = [shot-1,shot+1,shot-10,shot+10]
     else:
         if shot-1 in hit:
-            temp = [shot-2,shot+1]
+            if shot-2 in hit:
+                temp = [shot-3,shot+1]
+            else:
+                temp = [shot-2,shot+1]
         elif shot+1 in hit:
-            temp = [shot+2,shot-1]
+            if shot-2 in hit:
+                temp = [shot+3,shot-1]
+            else:
+                temp = [shot+2,shot-1]
         elif shot-10 in hit:
-            temp = [shot-20,shot+10]
+            if shot-2 in hit:
+                temp = [shot-30,shot+10]
+            else:
+                temp = [shot-20,shot+10]
         elif shot+10 in hit:
-            temp = [shot+20,shot-10]
+            if shot-2 in hit:
+                temp = [shot+30,shot-10]
+            else:
+                temp = [shot+20,shot-10]
     
     cand = []
     for i in range(len(temp)):
@@ -131,7 +143,7 @@ ships, take = create_boats()
 tactic = []
 
 
-for i in range(50):
+for i in range(80):
     shot, guesses = getting_shot_comp(guesses,tactic)
     ships, hit, miss, comp, missed = check_hit(shot, ships, hit, miss, comp)
     
