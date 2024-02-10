@@ -45,9 +45,9 @@ def create_ships():
     boats = [5,5,4,3,3,2]
     
     for boat in boats:
-        ship = get_ship(boat,take)
+        ship,take = get_ship(boat,take)
         ships.append(ship)
         
-    return ships
+    return ships,take
 
 ships = create_ships()
