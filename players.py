@@ -1,5 +1,6 @@
 def check_ok(boat,take):
 
+    boat.sort()
     for i in range(len(boat)):
         num = boat[i]
         if num in take:
@@ -12,17 +13,27 @@ def check_ok(boat,take):
             if boat[i+1] % 10 == 0:
                 boat = [-1]
                 break
-            
+        if i != 0:   
+            if boat[i+1] != boat[i]+1 or boat[i+1] != boat[i]+10:
+             
     return boat
+
 def get_ship(long,take):
     
-    ship = []
-    print("Enter your Ship")
-    for i in range(long):
-        boat_num = input("Please enter a number")
-        ship.append(int(boat_num))
+    ok = True
+    while ok:
+        ship = []
+        print("Enter your Ship")
+        for i in range(long):
+            boat_num = input("Please enter a number")
+            ship.append(int(boat_num))
+            
+        ship = check_ok(ship,take)
+        if  ship[0] != -1:  
+            break
+        else:
+            print("error, Please enter the number again !")    
         
-    ship = check_ok(ship,take)    
     return ship
 
 def create_ships():
