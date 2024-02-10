@@ -55,13 +55,21 @@ def create_ships():
     return ships,take
 
 def check_boat(b, start, dire, take):
-    dire = 1
     boat = []
-    if dire in [1, 2, 3, 4]:
+    if dire == 1:
         for i in range(b):
-            boat.append(start - i * 10)
-            boat = check_ok(boat, take)
-    return boat
+            boat.append(start - i*10)
+    elif dire == 2:
+        for i in range(b):
+            boat.append(start + i)
+    elif dire == 3:
+        for i in range(b):
+            boat.append(start + i*10)
+    elif dire == 4:
+        for i in range(b):
+            boat.append(start - i)
+    boat = check_ok(boat,take)           
+    return boat 
 
 def create_boats():
     take = []
@@ -74,7 +82,7 @@ def create_boats():
             boat_direction = randrange(1, 5)
             boat = check_boat(b, boat_start, boat_direction, take)
         ships.append(boat)
-        take.extend(boat)
+        take = take + boat
     return ships, take
 
 def game_board_comp(take):
