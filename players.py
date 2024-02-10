@@ -14,8 +14,26 @@ def check_ok(boat,take):
                 break
             
     return boat
+def get_ship(long,take):
+    
+    ship = []
+    print("Enter your Ship")
+    for i in range(long):
+        boat_num = input("Please enter a number")
+        ship.append(int(boat_num))
+        
+    ship = check_ok(ship,take)    
+    return ship
 
 def create_ships():
     taken = []
     ships = []
     boats = [5,5,4,3,3,2]
+    
+    for boat in boats:
+        ship = get_ship(boat,take)
+        ships.append(ship)
+        
+    return ships
+
+ships = create_ships()
