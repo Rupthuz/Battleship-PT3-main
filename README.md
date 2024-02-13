@@ -45,3 +45,47 @@ The screenshot provided demonstrates the alignment of the grids, showcasing the 
 
 - Enemy's Grid
 
+# Features:
+
+## Grid Presentation:
+The grid for the player and the opponent is showcased.
+The player's vessels are discernible on their grid.
+Alphabets and numerals atop columns and rows for convenient identification.
+
+## Hit and Miss Feedback:
+Visual signs and text updates indicate hits ('o') and misses ('X'):
+
+# Utilized Technologies
+Python: Predominant programming language employed in the application.
+
+GitHub: Platform utilized for repository hosting.
+
+VS Code: Selected as the primary code editor for composing and modifying the website's code.
+
+Back to top
+
+## Utilized Libraries:
+The Battleship game relies solely on one core library, the random library
+
+# Testing
+The code underwent testing, uncovering no significant errors. Despite attempting to utilize PEP8 for code validation, the site's functionality was inaccessible to me. In its place, I utilized Pylint, which offers insights into syntax errors.
+
+-I know the test was successful because after choosing the numerical position on the grid, it was displayed on the battle grid.
+- ![Captura de tela 2024-02-13 140357](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/56799c96-a925-4206-bab0-9930dd086ea7)
+- ![Captura de tela 2024-02-13 140405](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/26ec680a-c908-43dc-b9f1-269aabe1333a)
+
+- I know the test was successful because after choosing the numerical position on the grid where a ship was located, it appeared with the chosen symbol for (hit).
+
+- ![Captura de tela 2024-02-13 140532](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/054a6d62-4576-4e65-9975-9cb0c8a0c8dd)
+- ![Captura de tela 2024-02-13 140613](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/c8e0f2c5-2a7e-4b03-8edc-74f5af8219e8)
+
+- The same applies when the ship is sunk, making it possible to verify the symbol for (sunk)
+
+
+
+# Credits
+Python:
+- The Battleship Game is inspired by the tutorial article authored by Mark Anthony Llego/
+- Franklin Nascimento(https://www.youtube.com/watch?v=uoG17lg2WCg).
+- This project was constructed utilizing a template provided by Code Institute to establish the necessary environment for deployment on Heroku.
+
