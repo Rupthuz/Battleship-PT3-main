@@ -59,19 +59,13 @@ Alphabets and numerals atop columns and rows for convenient identification.
 - Screen-clearing capability - Utilizes the os.system import to implement a function for clearing the screen.
 - Multiplayer mode activation - Enables player-versus-player battles for a multiplayer gaming experience.
 
-
-
 ## Hit and Miss Feedback:
 Visual signs and text updates indicate hits ('o') and misses ('X'):
 
 # Utilized Technologies
-Python: Predominant programming language employed in the application.
-
-GitHub: Platform utilized for repository hosting.
-
-VS Code: Selected as the primary code editor for composing and modifying the website's code.
-
-Back to top
+- Python: Predominant programming language employed in the application.
+- GitHub: Platform utilized for repository hosting.
+- VS Code: Selected as the primary code editor for composing and modifying the website's code.
 
 ## Utilized Libraries:
 The Battleship game relies solely on one core library, the random library
