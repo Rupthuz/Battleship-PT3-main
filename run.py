@@ -106,7 +106,6 @@ def show_board_computer(taken):
 
 
 def get_shot_comp(guesses, tactics):
-
     okay = "n"
     while okay == "n":
         try:
@@ -118,7 +117,7 @@ def get_shot_comp(guesses, tactics):
                 okay = "y"
                 guesses.append(shot)
                 break
-        except:
+        except ValueError:  # Catch ValueError for invalid input
             print("Incorrect entry - please enter again")
 
     return shot, guesses
@@ -202,7 +201,6 @@ def calc_tactics(shot, tactics, guesses, hit):
 
 
 def get_shot(guesses):
-
     okay = "n"
     while okay == "n":
         try:
@@ -215,7 +213,7 @@ def get_shot(guesses):
             else:
                 okay = "y"
                 break
-        except:
+        except ValueError:  # Catch ValueError for invalid input
             print("Incorrect entry - please enter again")
 
     return shot
@@ -250,7 +248,6 @@ ships1, taken1 = create_boats(taken1, battleships)
 # User creates the board for player 2 - show board
 ships2, taken2 = create_ships(taken2, battleships)
 show_board_computer(taken2)
-
 # Loop
 for i in range(80):
 
