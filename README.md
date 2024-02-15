@@ -52,6 +52,15 @@ The grid for the player and the opponent is showcased.
 The player's vessels are discernible on their grid.
 Alphabets and numerals atop columns and rows for convenient identification.
 
+# Additional upcoming features
+
+- Manual deployment of battleships - Gives players the option to manually position their battleships on the game board.
+- Game timer functionality - Introduces a timer for time-based gameplay.
+- Screen-clearing capability - Utilizes the os.system import to implement a function for clearing the screen.
+- Multiplayer mode activation - Enables player-versus-player battles for a multiplayer gaming experience.
+
+
+
 ## Hit and Miss Feedback:
 Visual signs and text updates indicate hits ('o') and misses ('X'):
 
@@ -84,8 +93,11 @@ The code underwent testing, uncovering no significant errors. Despite attempting
 
 
 # Credits
-Python:
-- The Battleship Game is inspired by the tutorial article authored by Mark Anthony Llego/
-- Franklin Nascimento(https://www.youtube.com/watch?v=uoG17lg2WCg).
+## Python:
+- The Battleship Game is inspired by the tutorial article authored by Mark Anthony Llego /
+- Franklin Nascimento (https://www.youtube.com/watch?v=uoG17lg2WCg).
 - This project was constructed utilizing a template provided by Code Institute to establish the necessary environment for deployment on Heroku.
+- Credits are given to the Code Institute projects, curriculum and previous projects in Python.
+- GeeksforGeeks - Python Programming Examples
+- PythonDex - Python Battleship Game
 
