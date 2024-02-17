@@ -2,6 +2,8 @@
 The Battleship Challenge presents a timeless blend of strategic planning and deduction, placing you within a 10x10 grid environment, set within a Terminal interface. Your objective is to pinpoint and destroy four adversary battleships cunningly concealed across the grid. Immerse yourself in a tactical solo confrontation against the computer opponent and strive to claim triumph.
 
 
+https://batlleshipcodep3-ebe6d13f5332.herokuapp.com/
+
 # User Experience UX
 ## User Stories:
 - As a user, I wish to be able to visualize my own ships on my grid.
