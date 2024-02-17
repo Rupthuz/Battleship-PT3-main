@@ -2,7 +2,7 @@
 from random import randrange
 import random
 
-print("                                Welcome to Battleship Game")
+print("                              Welcome to Battleship Game")
 print("                                    ")
 print("Game rules: firstly, insert into the input where you would like to position your ships, bearing in mind that they must be sequential numbers")
 print("                                    ")
