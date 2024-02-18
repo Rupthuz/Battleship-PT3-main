@@ -9,6 +9,7 @@ print("-------------------------------------------------------------------------
 print(" 2 - Afterwards, the grid will be created for battlefield visualization. Enter the number you wish to attempt to hit the enemy ship. If successful, the icon (o) will be displayed; if unsuccessful, (x) will be displayed. Finally, if you sink the enemy ship, it will be displayed on the grid as (O).")
 print("--------------------------------------------------------------------------------")
 
+
 def check_ok(boat, taken):
     boat.sort()
     for i in range(len(boat)):
@@ -260,7 +261,8 @@ for i in range(80):
     # Player shoots
     guesses1 = hit1 + miss1 + comp1
     shot1 = get_shot(guesses1)
-    ships1, hit1, miss1, comp1, missed1 = check_shot(shot1, ships1, hit1, miss1, comp1)
+    ships1, hit1, miss1 = check_shot(shot1, ships1, hit1, miss1, comp1)
+    comp1, missed1 = check_shot(shot1, ships1, hit1, miss1, comp1)
     show_board(hit1, miss1, comp1)
     # Repeat until ships empty
     if check_if_empty_2(ships1):
@@ -269,7 +271,8 @@ for i in range(80):
     # Computer shoots
 
     shot2, guesses2 = get_shot_comp(guesses2, tactics2)
-    ships2, hit2, miss2, comp2, missed2 = check_shot(shot2, ships2, hit2, miss2, comp2)
+    ships2, hit2 = check_shot(shot2, ships2, hit2, miss2, comp2)
+    miss2, comp2, missed2 = check_shot(shot2, ships2, hit2, miss2, comp2)
     show_board(hit2, miss2, comp2)
     if missed2 == 1:
         tactics2 = calc_tactics(shot2, tactics2, guesses2, hit2)
