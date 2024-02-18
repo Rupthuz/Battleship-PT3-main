@@ -2,7 +2,33 @@
 The Battleship Challenge presents a timeless blend of strategic planning and deduction, placing you within a 10x10 grid environment, set within a Terminal interface. Your objective is to pinpoint and destroy four adversary battleships cunningly concealed across the grid. Immerse yourself in a tactical solo confrontation against the computer opponent and strive to claim triumph.
 
 
-https://batlleshipcodep3-ebe6d13f5332.herokuapp.com/
+![Facebook post - 1](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/4e3b5358-a366-4f9e-b131-d1de1e60ec3e)
+
+live app - https://batlleshipcodep3-ebe6d13f5332.herokuapp.com/
+
+Github Repository - https://github.com/Rupthuz/Battleship-PT3-main
+
+
+
+# How to Play 
+- Firstly, you will be asked to input the placement of your ships, totaling 5 in number, with varying lengths (the length will be displayed for you).
+
+![Captura de tela 2024-02-18 093926](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/0746643e-c9ff-4ea4-a987-c103e2ad78b9)
+
+- After completing the placement of your ships, your own battlefield will be displayed, showing the final position of your ships.
+
+![Captura de tela 2024-02-18 093946](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/59579e63-5a26-4008-8617-c9bb883dd318)
+
+- Immediately after, the actual game begins, and you can input the number you believe will hit the enemy ship. The guess number should be in the following format (0,12,13,14,15), with the first number corresponding to the height and the following to the width of the grid.
+
+![Captura de tela 2024-02-18 094747](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/92c376b0-ae99-407a-b61e-7035e228c6a9)
+
+-Both battlefields will be displayed together, with the enemy's field directly below yours.
+
+![Captura de tela 2024-02-18 094944](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/d91457f6-3357-44cf-b665-8e0e7ead2849)
+
+-The game is concluded when you manage to sink all 5 enemy ships or when the enemy sinks all of yours.
+
 
 # User Experience UX
 ## User Stories:
@@ -13,6 +39,61 @@ https://batlleshipcodep3-ebe6d13f5332.herokuapp.com/
 - As a user, I want to be informed which grid is for which purpose if there are more than one.
 - As a user, I want to have the option to exit the game at any time.
 - As a user, I want to receive a brief introduction to the game and its rules.
+
+# User Story 2: Enhancing Code Clarity and Maintainability for Developers
+
+As a developer, I aim for code that adheres to readability and maintainability standards.
+
+## Acceptance Criteria:
+
+## Code Structure:
+
+Given that I'm reviewing the codebase,
+When I navigate through project directories and files,
+Then the code should be logically organized, with clear separation of concerns and a consistent folder structure.
+
+## Comments and Documentation:
+
+Given that I'm reading the code,
+When I encounter complex or non-trivial sections,
+Then the code should contain helpful comments and documentation elucidating the purpose and functionality of those sections.
+
+## Variable and Function Naming:
+
+Given that I'm inspecting variable and function names,
+When I come across a variable or function,
+Then the names should be descriptive, following a consistent naming convention, and offering a clear understanding of their purpose.
+
+## Code Formatting:
+
+Given that I'm scrutinizing the code,
+When I review the formatting,
+Then the code should adhere to a consistent style guide, with proper indentation, spacing, and alignment to enhance readability.
+
+## Avoidance of Magic Numbers:
+
+Given that I'm analyzing numeric values in the code,
+When I encounter numeric constants lacking clear context,
+Then the code should refrain from employing magic numbers and instead use named constants or variables to enhance readability.
+
+## Error Handling:
+
+Given that I'm examining error-handling mechanisms,
+When I encounter sections addressing potential errors,
+Then the code should incorporate appropriate error handling with descriptive messages to facilitate issue diagnosis during development and maintenance.
+
+## Testing:
+
+Given that I'm evaluating the test suite,
+When I review the tests,
+Then the tests should encompass critical functionalities, offer sufficient code coverage, and align with the project structure.
+
+## Additional Considerations:
+
+Refactoring should be conducted when necessary to elevate code quality.
+The application of design patterns and best practices should be considered where relevant.
+Code should be crafted with future maintainers in mind, anticipating potential project changes and updates.
+Continuous integration and automated code analysis tools should be employed to detect potential issues early in the development lifecycle.
 
 
 # Owner Stories:
