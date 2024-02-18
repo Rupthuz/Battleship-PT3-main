@@ -3,10 +3,10 @@ from random import randrange
 import random
 
 print("                              Welcome to Battleship Game")
-print("                                    ")
-print("Game rules: firstly, insert into the input where you would like to position your ships, bearing in mind that they must be sequential numbers")
-print("                                    ")
-print("Afterwards, the grid will be created for battlefield visualization. Enter the number you wish to attempt to hit the enemy ship. If successful, the icon (o) will be displayed; if unsuccessful, (x) will be displayed. Finally, if you sink the enemy ship, it will be displayed on the grid as (O).")
+print("-------------------------------------------------------")
+print(" 1 - Game rules: firstly, insert into the input where you would like to position your ships, bearing in mind that they must be sequential numbers")
+print("-------------------------------------------------------")
+print(" 2 - Afterwards, the grid will be created for battlefield visualization. Enter the number you wish to attempt to hit the enemy ship. If successful, the icon (o) will be displayed; if unsuccessful, (x) will be displayed. Finally, if you sink the enemy ship, it will be displayed on the grid as (O).")
 
 def check_ok(boat, taken):
     boat.sort()
