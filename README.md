@@ -22,7 +22,7 @@ Github Repository - https://github.com/Rupthuz/Battleship-PT3-main
   * [Owner Stories](#Owner_Stories)
 * [Game Rules](#Game_Rules)
   * [Legend](#Legends)
-* [Design Choice: Grid Arrangement](#Design_Choice:_Grid_Arrangement)
+* [Design Choice](#Design_Choice)
 * [Features](#Features)
 * [Additional upcoming features](#Additional_upcoming_features)
 * [Hit and Miss Feedback](#Hit_and_Miss_Feedback)
