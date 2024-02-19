@@ -8,6 +8,29 @@ live app - https://batlleshipcodep3-ebe6d13f5332.herokuapp.com/
 
 Github Repository - https://github.com/Rupthuz/Battleship-PT3-main
 
+<!--ts-->
+
+* [How to Play](#How_to_Play) 
+* [User Experience UX](#User_Experience_UX)
+* [User Stories](#User_Stories)
+  * [Code Structure](#Code_Structure)
+  * [Comments and Documentation](#Comments_and_Documentation)
+   * [Variable and Function Naming](#Variable_and_Function_Naming)
+   * [Code Formatting](#Code_Formatting)
+  * [Error Handling](#Error_Handling)
+  * [Additional Considerations](#Additional_Considerations)
+  * [Owner Stories](#Owner_Stories)
+* [Game Rules](#Game_Rules)
+  * [Legend](#Legends)
+* [Design Choice: Grid Arrangement](#Design_Choice:_Grid_Arrangement)
+* [Features](#Features)
+* [Additional upcoming features](#Additional_upcoming_features)
+* [Hit and Miss Feedback](#Hit_and_Miss_Feedback)
+* [Utilized Technologies](#Utilized_Technologies)
+* [Utilized Libraries](#Utilized_Libraries)
+* [Testing](#Testing)
+* [Credits](#Credits)
+<!--te-->
 
 
 # How to Play 
@@ -82,11 +105,6 @@ Given that I'm examining error-handling mechanisms,
 When I encounter sections addressing potential errors,
 Then the code should incorporate appropriate error handling with descriptive messages to facilitate issue diagnosis during development and maintenance.
 
-## Testing:
-
-Given that I'm evaluating the test suite,
-When I review the tests,
-Then the tests should encompass critical functionalities, offer sufficient code coverage, and align with the project structure.
 
 ## Additional Considerations:
 
