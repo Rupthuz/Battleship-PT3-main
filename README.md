@@ -31,6 +31,7 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 * [Utilized Libraries](#Utilized_Libraries)
 * [Testing](#Testing)
 * [Credits](#Credits)
+* [Acknowledgements](#Acknowledgements)
 <!--te-->
 
 
@@ -196,4 +197,9 @@ The code underwent testing, uncovering no significant errors. Despite attempting
 - Credits are given to the Code Institute projects, curriculum and previous projects in Python.
 - GeeksforGeeks - Python Programming Examples
 - PythonDex - Python Battleship Game
+
+# Acknowledgements
+
+- I am grateful for my wife's patience as I allocate significant time to coding.
+- Special thanks to my mentor, Daniel Hamilton, for consistently providing valuable feedback.
 
