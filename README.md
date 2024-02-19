@@ -4,12 +4,13 @@ The Battleship Challenge presents a timeless blend of strategic planning and ded
 
 ![Facebook post - 1](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/4e3b5358-a366-4f9e-b131-d1de1e60ec3e)
 
-Click Here to [live app](https://batlleshipcodep3-ebe6d13f5332.herokuapp.com/)
+Click Here to Heroku [live app](https://batlleshipcodep3-ebe6d13f5332.herokuapp.com/)
 
 Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main)
 
-<!--ts-->
 
+
+<!--ts-->
 * [How to Play](#How_to_Play) 
 * [User Experience UX](#User_Experience_UX)
 * [User Stories](#User_Stories)
