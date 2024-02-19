@@ -190,10 +190,14 @@ The code underwent testing, uncovering no significant errors. Despite attempting
 
 - The same applies when the ship is sunk, making it possible to verify the symbol for (sunk)
 
+- I know the test was successful because the game ends
+
+![Captura de tela 2024-02-19 140246](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/904d5e9a-d46b-4991-9ec1-27847d4b0fd0)
+
+ 
 # Deployment
 - The Battleship project was deployed with Code Institute's mock terminal for Heroku.
 
-## Deployment Steps
 ## Fork or Clone Repository:
 - Fork the repository or clone it to your local machine using the following command: git clone https://github.com/Rupthuz/Battleship-PT3-main
 ## Create a New Heroku App:
