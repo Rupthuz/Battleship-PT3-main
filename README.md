@@ -194,21 +194,21 @@ The code underwent testing, uncovering no significant errors. Despite attempting
 - The Battleship project was deployed with Code Institute's mock terminal for Heroku.
 
 ## Deployment Steps
-- Fork or Clone Repository:
+## Fork or Clone Repository:
 - Fork the repository or clone it to your local machine using the following command: git clone https://github.com/Rupthuz/Battleship-PT3-main
-- Create a New Heroku App:
+## Create a New Heroku App:
 - Log in to your Heroku account.
 - Click on the "New" button and select "Create new app."
 - Choose a unique app name and set your preferred region.
-- Set Buildpacks:
+## Set Buildpacks:
 - In the Heroku app dashboard, navigate to the "Settings" tab.
 - Scroll down to the "Buildpacks" section.
-- Add the following buildpacks in order:
+## Add the following buildpacks in order:
 - Python
 - NodeJS
-- Link Heroku App to Repository:
+## Link Heroku App to Repository:
 - In the "Deploy" tab, connect your Heroku app to your GitHub repository.
-- Enable automatic deploys if desired. Deploy:
+## Enable automatic deploys if desired. Deploy:
 - Manually deploy your app by clicking the "Deploy Branch" button.
 - Alternatively, enable automatic deploys for future updates.
 - Open App:
