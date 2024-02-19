@@ -32,6 +32,7 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 * [Testing](#Testing)
 * [Credits](#Credits)
 * [Acknowledgements](#Acknowledgements)
+* [Deploy](#Deploy)
 <!--te-->
 
 
@@ -67,53 +68,53 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 
 # User Story 2: Enhancing Code Clarity and Maintainability for Developers
 
-As a developer, I aim for code that adheres to readability and maintainability standards.
+- As a developer, I aim for code that adheres to readability and maintainability standards.
 
 ## Acceptance Criteria:
 
 ## Code Structure:
 
-Given that I'm reviewing the codebase,
-When I navigate through project directories and files,
-Then the code should be logically organized, with clear separation of concerns and a consistent folder structure.
+- Given that I'm reviewing the codebase,
+- When I navigate through project directories and files,
+- Then the code should be logically organized, with clear separation of concerns and a consistent folder structure.
 
 ## Comments and Documentation:
 
-Given that I'm reading the code,
-When I encounter complex or non-trivial sections,
-Then the code should contain helpful comments and documentation elucidating the purpose and functionality of those sections.
+- Given that I'm reading the code,
+- When I encounter complex or non-trivial sections,
+- Then the code should contain helpful comments and documentation elucidating the purpose and functionality of those sections.
 
 ## Variable and Function Naming:
 
-Given that I'm inspecting variable and function names,
-When I come across a variable or function,
-Then the names should be descriptive, following a consistent naming convention, and offering a clear understanding of their purpose.
+- Given that I'm inspecting variable and function names,
+- When I come across a variable or function,
+- Then the names should be descriptive, following a consistent naming convention, and offering a clear understanding of their purpose.
 
 ## Code Formatting:
 
-Given that I'm scrutinizing the code,
-When I review the formatting,
-Then the code should adhere to a consistent style guide, with proper indentation, spacing, and alignment to enhance readability.
+- Given that I'm scrutinizing the code,
+- When I review the formatting,
+- Then the code should adhere to a consistent style guide, with proper indentation, spacing, and alignment to enhance readability.
 
 ## Avoidance of Magic Numbers:
 
-Given that I'm analyzing numeric values in the code,
-When I encounter numeric constants lacking clear context,
-Then the code should refrain from employing magic numbers and instead use named constants or variables to enhance readability.
+- Given that I'm analyzing numeric values in the code,
+- When I encounter numeric constants lacking clear context,
+- Then the code should refrain from employing magic numbers and instead use named constants or variables to enhance readability.
 
 ## Error Handling:
 
-Given that I'm examining error-handling mechanisms,
-When I encounter sections addressing potential errors,
-Then the code should incorporate appropriate error handling with descriptive messages to facilitate issue diagnosis during development and maintenance.
+- Given that I'm examining error-handling mechanisms,
+- When I encounter sections addressing potential errors,
+- Then the code should incorporate appropriate error handling with descriptive messages to facilitate issue diagnosis during development and maintenance.
 
 
 ## Additional Considerations:
 
-Refactoring should be conducted when necessary to elevate code quality.
-The application of design patterns and best practices should be considered where relevant.
-Code should be crafted with future maintainers in mind, anticipating potential project changes and updates.
-Continuous integration and automated code analysis tools should be employed to detect potential issues early in the development lifecycle.
+- Refactoring should be conducted when necessary to elevate code quality.
+- The application of design patterns and best practices should be considered where relevant.
+- Code should be crafted with future maintainers in mind, anticipating potential project changes and updates.
+- Continuous integration and automated code analysis tools should be employed to detect potential issues early in the development lifecycle.
 
 
 # Owner Stories:
@@ -137,8 +138,8 @@ Continuous integration and automated code analysis tools should be employed to d
 
 # Design Choice: Grid Arrangement
 
-To emulate the traditional Battleship game experience, the design incorporates two grids: the player's grid and the opponent's grid. The player's grid is situated below the opponent's grid. This arrangement mirrors the layout seen in physical Battleship games, where players typically have their own grid beneath their opponent's. This setup requires the player to record their attacks on their grid while tracking the opponent's strikes on the grid above.
-The screenshot provided demonstrates the alignment of the grids, showcasing the positioning as described.
+- To emulate the traditional Battleship game experience, the design incorporates two grids: the player's grid and the opponent's grid. The player's grid is situated below the opponent's grid. This arrangement mirrors the layout seen in - physical Battleship games, where players typically have their own grid beneath their opponent's. This setup requires the player to record their attacks on their grid while tracking the opponent's strikes on the grid above.
+- The screenshot provided demonstrates the alignment of the grids, showcasing the positioning as described.
 
 ![Captura de tela 2024-02-12 141633](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/9db950b5-6157-411e-b93a-32c6d4045bb7)
 
@@ -151,9 +152,9 @@ The screenshot provided demonstrates the alignment of the grids, showcasing the 
 # Features:
 
 ## Grid Presentation:
-The grid for the player and the opponent is showcased.
-The player's vessels are discernible on their grid.
-Alphabets and numerals atop columns and rows for convenient identification.
+- The grid for the player and the opponent is showcased.
+- The player's vessels are discernible on their grid.
+- Alphabets and numerals atop columns and rows for convenient identification.
 
 # Additional upcoming features
 
@@ -163,7 +164,7 @@ Alphabets and numerals atop columns and rows for convenient identification.
 - Multiplayer mode activation - Enables player-versus-player battles for a multiplayer gaming experience.
 
 ## Hit and Miss Feedback:
-Visual signs and text updates indicate hits ('o') and misses ('X'):
+- Visual signs and text updates indicate hits ('o') and misses ('X'):
 
 # Utilized Technologies
 - Python: Predominant programming language employed in the application.
@@ -176,6 +177,8 @@ The Battleship game relies solely on one core library, the random library
 # Testing
 The code underwent testing, uncovering no significant errors. Despite attempting to utilize PEP8 for code validation, the site's functionality was inaccessible to me. In its place, I utilized Pylint, which offers insights into syntax errors.
 
+![Captura de tela 2024-02-13 134159](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/6191baed-6686-4648-b25b-e7b2dfa0b928)
+
 -I know the test was successful because after choosing the numerical position on the grid, it was displayed on the battle grid.
 - ![Captura de tela 2024-02-13 140357](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/56799c96-a925-4206-bab0-9930dd086ea7)
 - ![Captura de tela 2024-02-13 140405](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/26ec680a-c908-43dc-b9f1-269aabe1333a)
@@ -187,7 +190,29 @@ The code underwent testing, uncovering no significant errors. Despite attempting
 
 - The same applies when the ship is sunk, making it possible to verify the symbol for (sunk)
 
+# Deployment
+- The Battleship project was deployed with Code Institute's mock terminal for Heroku.
 
+## Deployment Steps
+- Fork or Clone Repository:
+- Fork the repository or clone it to your local machine using the following command: git clone https://github.com/Rupthuz/Battleship-PT3-main
+- Create a New Heroku App:
+- Log in to your Heroku account.
+- Click on the "New" button and select "Create new app."
+- Choose a unique app name and set your preferred region.
+- Set Buildpacks:
+- In the Heroku app dashboard, navigate to the "Settings" tab.
+- Scroll down to the "Buildpacks" section.
+- Add the following buildpacks in order:
+- Python
+- NodeJS
+- Link Heroku App to Repository:
+- In the "Deploy" tab, connect your Heroku app to your GitHub repository.
+- Enable automatic deploys if desired. Deploy:
+- Manually deploy your app by clicking the "Deploy Branch" button.
+- Alternatively, enable automatic deploys for future updates.
+- Open App:
+- Once the deployment is successful, click on the "Open App" button to view your live application.
 
 # Credits
 ## Python:
