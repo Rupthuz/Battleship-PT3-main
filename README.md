@@ -198,7 +198,6 @@ The code underwent testing, uncovering no significant errors. Despite attempting
 # Deployment
 - The Battleship project was deployed with Code Institute's mock terminal for Heroku.
 
-## Deployment Steps
 ## Fork or Clone Repository:
 - Fork the repository or clone it to your local machine using the following command: git clone https://github.com/Rupthuz/Battleship-PT3-main
 ## Create a New Heroku App:
