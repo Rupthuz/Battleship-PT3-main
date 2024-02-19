@@ -57,7 +57,7 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 
 
 # User Experience UX
-## User Stories:
+## User Stories
 - As a user, I wish to be able to visualize my own ships on my grid.
 - As a user, I wish to see the letters or numbers above the columns and rows so that I can accurately decide which cell to target.
 - As a user, I want to receive notifications about the turns, whether it's my turn or the computer's turn.
@@ -70,46 +70,46 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 
 - As a developer, I aim for code that adheres to readability and maintainability standards.
 
-## Acceptance Criteria:
+## Acceptance Criteria
 
-## Code Structure:
+## Code Structure
 
 - Given that I'm reviewing the codebase,
 - When I navigate through project directories and files,
 - Then the code should be logically organized, with clear separation of concerns and a consistent folder structure.
 
-## Comments and Documentation:
+## Comments and Documentation
 
 - Given that I'm reading the code,
 - When I encounter complex or non-trivial sections,
 - Then the code should contain helpful comments and documentation elucidating the purpose and functionality of those sections.
 
-## Variable and Function Naming:
+## Variable and Function Naming
 
 - Given that I'm inspecting variable and function names,
 - When I come across a variable or function,
 - Then the names should be descriptive, following a consistent naming convention, and offering a clear understanding of their purpose.
 
-## Code Formatting:
+## Code Formatting
 
 - Given that I'm scrutinizing the code,
 - When I review the formatting,
 - Then the code should adhere to a consistent style guide, with proper indentation, spacing, and alignment to enhance readability.
 
-## Avoidance of Magic Numbers:
+## Avoidance of Magic Numbers
 
 - Given that I'm analyzing numeric values in the code,
 - When I encounter numeric constants lacking clear context,
 - Then the code should refrain from employing magic numbers and instead use named constants or variables to enhance readability.
 
-## Error Handling:
+## Error Handling
 
 - Given that I'm examining error-handling mechanisms,
 - When I encounter sections addressing potential errors,
 - Then the code should incorporate appropriate error handling with descriptive messages to facilitate issue diagnosis during development and maintenance.
 
 
-## Additional Considerations:
+## Additional Considerations
 
 - Refactoring should be conducted when necessary to elevate code quality.
 - The application of design patterns and best practices should be considered where relevant.
@@ -117,12 +117,12 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 - Continuous integration and automated code analysis tools should be employed to detect potential issues early in the development lifecycle.
 
 
-# Owner Stories:
+# Owner Stories
 - As an owner, I want to verify that the entered data is accurate and valid.
 - As an owner, I want to ensure that the game is fully functional and playable from start to finish.
 
 
-# Game Rules:
+# Game Rules
 -The game is set on a grid of dimensions 10 by 10.
 - There are four enemy battleships concealed within the grid, each with varying lengths.
 - Players alternate turns selecting target coordinates (10, 12) to strike the computer's grid (1 / 0 or 1 / 2).
@@ -130,7 +130,7 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 - Ships are positioned either horizontally or vertically, never diagonally.
 - The grid legend features symbols representing empty spaces, ship components, hit ship components, and missed shots.
 
-# Legend:
+# Legend
 - '_' : Empty space on the grid.
 - 'X' : Miss
 - 'O': Hit
@@ -149,9 +149,9 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 
 - Enemy's Grid
 
-# Features:
+# Features
 
-## Grid Presentation:
+## Grid Presentation
 - The grid for the player and the opponent is showcased.
 - The player's vessels are discernible on their grid.
 - Alphabets and numerals atop columns and rows for convenient identification.
@@ -163,7 +163,7 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 - Screen-clearing capability - Utilizes the os.system import to implement a function for clearing the screen.
 - Multiplayer mode activation - Enables player-versus-player battles for a multiplayer gaming experience.
 
-## Hit and Miss Feedback:
+## Hit and Miss Feedback
 - Visual signs and text updates indicate hits ('o') and misses ('X'):
 
 # Utilized Technologies
@@ -171,7 +171,7 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 - GitHub: Platform utilized for repository hosting.
 - VS Code: Selected as the primary code editor for composing and modifying the website's code.
 
-## Utilized Libraries:
+## Utilized Libraries
 The Battleship game relies solely on one core library, the random library
 
 # Testing
