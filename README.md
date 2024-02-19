@@ -32,7 +32,7 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 * [Testing](#Testing)
 * [Credits](#Credits)
 * [Acknowledgements](#Acknowledgements)
-* [Deploy](#Deploy)
+* [Deployment](#Deployment)
 <!--te-->
 
 
