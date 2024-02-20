@@ -35,7 +35,7 @@ def check_ok(boat, taken):
 
     return boat
 
-
+# Snippet of code utilized as a foundation: pythonfiddle.com/battleships-game-in-python/
 def get_ship(length, taken):
     while True:
         ship = []
@@ -84,7 +84,7 @@ def check_boat(length, start, direction, taken):
     boat = check_ok(boat, taken)
     return boat
 
-
+# Snippet of code utilized as a foundation: pythonfiddle.com/battleships-game-in-python/
 def create_boats(taken, boats):
 
     ships = []
@@ -100,7 +100,7 @@ def create_boats(taken, boats):
 
     return ships, taken
 
-
+# Function to create Board Computer
 def show_board_computer(taken):
     print("         Battleships    ")
     print("     0  1  2  3  4  5  6  7  8  9")
@@ -117,7 +117,7 @@ def show_board_computer(taken):
 
         print(x, " ", row)
 
-
+# Function to create guesses
 def get_shot_comp(guesses, tactics):
     okay = "n"
     while okay == "n":
@@ -130,12 +130,12 @@ def get_shot_comp(guesses, tactics):
                 okay = "y"
                 guesses.append(shot)
                 break
-        except ValueError:  # Catch ValueError for invalid input
+        except ValueError:  # Catch ValueError
             print("Incorrect entry - please enter again")
 
     return shot, guesses
 
-
+# Function to create the board
 def show_board(hit, miss, comp):
     print("            Battleships    ")
     print("     0  1  2  3  4  5  6  7  8  9")
@@ -156,7 +156,7 @@ def show_board(hit, miss, comp):
 
         print(x, " ", row)
 
-
+# Function to check shots 
 def check_shot(shot, ships, hit, miss, comp):
     missed = 0
     for i in range(len(ships)):
@@ -173,7 +173,8 @@ def check_shot(shot, ships, hit, miss, comp):
 
     return ships, hit, miss, comp, missed
 
-
+# Snippet of code utilized as a foundation: GeeksforGeeks - Python Programming Examples
+# Franklin Nascimento (https://www.youtube.com/watch?v=uoG17lg2WCg).
 def calc_tactics(shot, tactics, guesses, hit):
 
     temp = []
@@ -236,9 +237,8 @@ def check_if_empty_2(list_of_lists):
 
     return all([not elem for elem in list_of_lists])
 
-# Before game
 
-
+# Snippet of code utilized as a foundation: Franklin Nascimento (https://www.youtube.com/watch?v=uoG17lg2WCg).
 hit1 = []
 miss1 = []
 comp1 = []
@@ -255,7 +255,7 @@ missed2 = 0
 tactics2 = []
 
 battleships = [5, 5, 3, 3, 2, ]
-# Game amount of ships
+# Game ships
 # Computer creates a board for player 1
 ships1, taken1 = create_boats(taken1, battleships)
 # User creates the board for player 2 - show board
@@ -264,17 +264,18 @@ show_board_computer(taken2)
 # Loop
 for i in range(80):
 
-    # Player shoots
+    # Player all shoots
     guesses1 = hit1 + miss1 + comp1
     shot1 = get_shot(guesses1)
     ships1, hit1, miss1, comp1, missed1 = check_shot(shot1, ships1, hit1, miss1, comp1)
     show_board(hit1, miss1, comp1)
-    # Repeat until ships empty
+    # Repeat to check ships empty
     if check_if_empty_2(ships1):
         print("End of game - Winner in", i)
         break
+    
     # Computer shoots
-
+    
     shot2, guesses2 = get_shot_comp(guesses2, tactics2)
     ships2, hit2, miss2, comp2, missed2 = check_shot(shot2, ships2, hit2, miss2, comp2)
     show_board(hit2, miss2, comp2)
