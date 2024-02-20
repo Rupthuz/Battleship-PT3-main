@@ -172,14 +172,14 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 - VS Code: Selected as the primary code editor for composing and modifying the website's code.
 
 ## Utilized Libraries
-The Battleship game relies solely on one core library, the random library
+- The Battleship game relies solely on one core library, the random library
 
 # Testing
-The code underwent testing, uncovering no significant errors. Despite attempting to utilize PEP8 for code validation, the site's functionality was inaccessible to me. In its place, I utilized Pylint, which offers insights into syntax errors.
+- The code underwent testing, uncovering no significant errors. Despite attempting to utilize PEP8 for code validation, the site's functionality was inaccessible to me. In its place, I utilized Pylint, which offers insights into syntax errors.
 
 ![Captura de tela 2024-02-13 134159](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/6191baed-6686-4648-b25b-e7b2dfa0b928)
 
--I know the test was successful because after choosing the numerical position on the grid, it was displayed on the battle grid.
+- I know the test was successful because after choosing the numerical position on the grid, it was displayed on the battle grid.
 - ![Captura de tela 2024-02-13 140357](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/56799c96-a925-4206-bab0-9930dd086ea7)
 - ![Captura de tela 2024-02-13 140405](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/26ec680a-c908-43dc-b9f1-269aabe1333a)
 
@@ -230,5 +230,6 @@ The code underwent testing, uncovering no significant errors. Despite attempting
 # Acknowledgements
 
 - I am grateful for my wife's patience as I allocate significant time to coding.
+- I cannot refrain from expressing my gratitude for the invaluable feedback and assistance provided by two of my closest friends, who are esteemed professionals in the role of tech leads: Victor Henrique Conforto and Vitor Bacelar.
 - Special thanks to my mentor, Daniel Hamilton, for consistently providing valuable feedback.
 
