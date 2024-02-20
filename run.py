@@ -4,7 +4,7 @@ import random
 
 print("                              Welcome to Battleship Game")
 print("--------------------------------------------------------------------------------")
-print(" 1 - Game rules: firstly, insert into the input where you would like to position your ships") 
+print(" 1 - Game rules: firstly, insert into the input where you would like to position your ships")
 print("bearing in mind that they must be sequential numbers")
 print("--------------------------------------------------------------------------------")
 print(" 2 - Afterwards, the grid will be created for battlefield visualization.")
@@ -35,21 +35,23 @@ def check_ok(boat, taken):
 
 
 def get_ship(length, taken):
-
-    okay = True
-    while okay:
+    while True:
         ship = []
         print("Enter your ship of length", length)
         for _ in range(length):
             boat_num = input("Please enter a number: ")
+            if not boat_num.isdigit():
+                print("Error - Please enter a valid number.")
+                break
             ship.append(int(boat_num))
+        if len(ship) != length:
+            continue
         ship = check_ok(ship, taken)
         if ship[0] != -1:
             taken.extend(ship)
             break
         else:
             print("Error - Please try again")
-
     return ship, taken
 
 
