@@ -8,9 +8,9 @@ print(" 1 - Game rules: firstly, insert into the input where you would like to p
 print("bearing in mind that they must be sequential numbers")
 print("--------------------------------------------------------------------------------")
 print(" 2 - Afterwards, the grid will be created for battlefield visualization.")
-print("Enter the number you wish to attempt to hit the enemy ship.")
-print("If successful, the icon (o) will be displayed; if unsuccessful, (x) will be displayed.")
-print("Finally, if you sink the enemy ship, it will be displayed on the grid as (O).")
+print(" 3 - Enter the number you wish to attempt to hit the enemy ship.")
+print(" 4 - If successful, the icon (o) will be displayed; if unsuccessful, (x) will be displayed.")
+print(" 5 - Finally, if you sink the enemy ship, it will be displayed on the grid as (O).")
 print("--------------------------------------------------------------------------------")
 
 
