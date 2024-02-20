@@ -30,6 +30,7 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 * [Utilized Technologies](#Utilized_Technologies)
 * [Utilized Libraries](#Utilized_Libraries)
 * [Testing](#Testing)
+* [Bugs](#Bugs)
 * [Credits](#Credits)
 * [Acknowledgements](#Acknowledgements)
 * [Deployment](#Deployment)
@@ -194,7 +195,10 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 
 ![Captura de tela 2024-02-19 140246](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/904d5e9a-d46b-4991-9ec1-27847d4b0fd0)
 
- 
+# Bugs
+
+- As per the application's proposal, no bugs have been identified that hinder the functionality of the application. However, should any be discovered, I appreciate the feedback and am available for future code maintenance.
+
 # Deployment
 - The Battleship project was deployed with Code Institute's mock terminal for Heroku.
 
