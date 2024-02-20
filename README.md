@@ -150,6 +150,11 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 
 - Enemy's Grid
 
+
+# project’s logic diagram
+
+![Instagram post - 1](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/988dcaa1-81bd-444a-973a-32351a9c96eb)
+
 # Features
 
 ## Grid Presentation
