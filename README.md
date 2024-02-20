@@ -199,7 +199,8 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 - The Battleship project was deployed with Code Institute's mock terminal for Heroku.
 
 ## Fork or Clone Repository:
-- Fork the repository or clone it to your local machine using the following command: git clone https://github.com/Rupthuz/Battleship-PT3-main
+- Fork the repository or clone it to your local machine using the following command: git clone
+- https://github.com/Rupthuz/Battleship-PT3-main
 ## Create a New Heroku App:
 - Log in to your Heroku account.
 - Click on the "New" button and select "Create new app."
@@ -219,9 +220,10 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 - Once the deployment is successful, click on the "Open App" button to view your live application.
 
 # Credits
-## Python:
-- The Battleship Game is inspired by the tutorial article authored by Mark Anthony Llego /
+
+- The Battleship Game is inspired by the tutorial article authored by Mark Anthony Llego
 - Franklin Nascimento (https://www.youtube.com/watch?v=uoG17lg2WCg).
+- pythonfiddle.com/battleships-game-in-python/
 - This project was constructed utilizing a template provided by Code Institute to establish the necessary environment for deployment on Heroku.
 - Credits are given to the Code Institute projects, curriculum and previous projects in Python.
 - GeeksforGeeks - Python Programming Examples
