@@ -178,6 +178,8 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 # Testing
 - The code underwent testing, uncovering no significant errors. Despite attempting to utilize PEP8 for code validation, the site's functionality was inaccessible to me. In its place, I utilized Pylint, which offers insights into syntax errors.
 
+- It has been tested and verified that it is not possible to input strings or empty entries into the code, thus ensuring its alignment with the project's proposal.
+
 ![Captura de tela 2024-02-13 134159](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/6191baed-6686-4648-b25b-e7b2dfa0b928)
 
 - I know the test was successful because after choosing the numerical position on the grid, it was displayed on the battle grid.
