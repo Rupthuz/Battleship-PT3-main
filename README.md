@@ -73,8 +73,6 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 
 - As a developer, I aim for code that adheres to readability and maintainability standards.
 
-## Acceptance Criteria
-
 ## Code Structure
 
 - Given that I'm reviewing the codebase,
