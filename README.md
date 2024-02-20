@@ -30,6 +30,7 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 * [Utilized Technologies](#Utilized_Technologies)
 * [Utilized Libraries](#Utilized_Libraries)
 * [Testing](#Testing)
+* [Bugs](#Bugs)
 * [Credits](#Credits)
 * [Acknowledgements](#Acknowledgements)
 * [Deployment](#Deployment)
@@ -149,6 +150,11 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 
 - Enemy's Grid
 
+
+# project’s logic diagram
+
+![Instagram post - 1 (2)](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/8841e704-de66-4218-81b1-f90111621ae3)
+
 # Features
 
 ## Grid Presentation
@@ -177,6 +183,8 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 # Testing
 - The code underwent testing, uncovering no significant errors. Despite attempting to utilize PEP8 for code validation, the site's functionality was inaccessible to me. In its place, I utilized Pylint, which offers insights into syntax errors.
 
+- It has been tested and verified that it is not possible to input strings or empty entries into the code, thus ensuring its alignment with the project's proposal.
+
 ![Captura de tela 2024-02-13 134159](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/6191baed-6686-4648-b25b-e7b2dfa0b928)
 
 - I know the test was successful because after choosing the numerical position on the grid, it was displayed on the battle grid.
@@ -194,7 +202,10 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 
 ![Captura de tela 2024-02-19 140246](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/904d5e9a-d46b-4991-9ec1-27847d4b0fd0)
 
- 
+# Bugs
+
+- As per the application's proposal, no bugs have been identified that hinder the functionality of the application. However, should any be discovered, I appreciate the feedback and am available for future code maintenance.
+
 # Deployment
 - The Battleship project was deployed with Code Institute's mock terminal for Heroku.
 
