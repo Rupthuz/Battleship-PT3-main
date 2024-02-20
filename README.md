@@ -1,6 +1,8 @@
 # Battleship Challenge
 The Battleship Challenge presents a timeless blend of strategic planning and deduction, placing you within a 10x10 grid environment, set within a Terminal interface. Your objective is to pinpoint and destroy four adversary battleships cunningly concealed across the grid. Immerse yourself in a tactical solo confrontation against the computer opponent and strive to claim triumph.
 
+This enjoyable game was conceived as the third project of the Code Institute course, with the intention of pleasing a target audience of gamers, much like myself. The idea of creating the game is based on a game that brought me much joy in childhood and has a short playing time.
+
 
 ![Facebook post - 1](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/4e3b5358-a366-4f9e-b131-d1de1e60ec3e)
 
