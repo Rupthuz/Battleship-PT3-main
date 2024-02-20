@@ -153,7 +153,8 @@ Click Here to [Github Repository](https://github.com/Rupthuz/Battleship-PT3-main
 
 # project’s logic diagram
 
-![Instagram post - 1](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/988dcaa1-81bd-444a-973a-32351a9c96eb)
+![Instagram post - 1 (1)](https://github.com/Rupthuz/Battleship-PT3-main/assets/74190717/26522c3e-53e6-430a-a356-66fef5cb8aa8)
+
 
 # Features
 
